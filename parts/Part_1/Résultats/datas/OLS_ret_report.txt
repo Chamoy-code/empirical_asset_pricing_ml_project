@@ -1,0 +1,30 @@
+OLS Results (ret)
+====================
+R2 OOS: -7.0859%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.0819, Vol=0.1848, Sharpe=0.4428
+  Short     : Return=0.0786, Vol=0.2638, Sharpe=0.2977
+  Long-Short: Return=0.0033, Vol=0.1518, Sharpe=0.0217
+
+
+Top 20 Features (by absolute coefficient):
+ 1. mom1m_x_macro_ep              : -0.049696
+ 2. mom1m_x_macro_dp              : 0.034654
+ 3. sp_x_macro_bm                 : -0.017342
+ 4. turn                          : -0.017302
+ 5. sic_13.0                      : 0.017173
+ 6. chmom_x_macro_ep              : -0.017169
+ 7. betasq_x_macro_bm             : -0.016773
+ 8. beta_x_macro_bm               : -0.015927
+ 9. sic_60.0                      : 0.015697
+10. mom6m_x_macro_ep              : -0.015209
+11. mom12m_x_macro_ep             : -0.015115
+12. idiovol_x_macro_bm            : -0.014222
+13. chmom_x_macro_dp              : 0.013940
+14. mom1m                         : -0.013576
+15. mom6m_x_macro_dp              : 0.013139
+16. mvel1_x_macro_ep              : -0.012146
+17. mom12m_x_macro_dp             : 0.012023
+18. mom1m_x_macro_bm              : -0.011470
+19. sic_62.0                      : 0.011326
+20. dolvol                        : -0.011101

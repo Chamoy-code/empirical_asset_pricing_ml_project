@@ -1,0 +1,37 @@
+Paramètres de base utilisés pour la Question 1 (Fixed Split / Baseline)
+========================================================================
+
+Ce fichier récapitule les hyperparamètres fixés pour les modèles de la Question 1, 
+avant l'application du Tuning (Question 2).
+
+1. OLS (Ordinary Least Squares)
+-------------------------------
+- Modèle : Régression Linéaire
+- Pénalité : Aucune
+- Optimiseur : SGD (Stochastic Gradient Descent)
+- Learning Rate initial : 0.01
+
+2. Lasso (Least Absolute Shrinkage and Selection Operator)
+---------------------------------------------------------
+- Modèle : Régression Linéaire
+- Pénalité : L1 (Lasso)
+- Alpha (Force de régularisation) : 1e-5 (0.00001)
+- Optimiseur : SGD
+- Learning Rate initial : 0.01
+
+3. Random Forest (RF)
+---------------------
+- Nombre d'arbres (n_estimators) : 100
+- Profondeur maximale (max_depth) : 3
+- Critère : Erreur Quadratique Moyenne (MSE)
+- Seed (Random State) : 42
+
+4. GBRT (Gradient Boosted Regression Trees)
+-------------------------------------------
+- Nombre d'itérations (n_estimators) : 50
+- Profondeur maximale (max_depth) : 2
+- Taux d'apprentissage (learning_rate) : 0.1
+- Seed (Random State) : 42
+
+Note : Ces paramètres ont été choisis pour être légers et robustes, permettant une 
+première analyse sans les ressources intensives du tuning multiniveaux.

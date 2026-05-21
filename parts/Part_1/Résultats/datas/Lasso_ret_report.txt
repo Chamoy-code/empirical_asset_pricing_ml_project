@@ -1,0 +1,30 @@
+Lasso Results (ret)
+====================
+R2 OOS: -5.8853%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.0823, Vol=0.1866, Sharpe=0.4412
+  Short     : Return=0.0807, Vol=0.2577, Sharpe=0.3132
+  Long-Short: Return=0.0016, Vol=0.1411, Sharpe=0.0114
+
+
+Top 20 Features (by absolute coefficient):
+ 1. mom1m_x_macro_ep              : -0.044194
+ 2. mom1m_x_macro_dp              : 0.030801
+ 3. turn                          : -0.016506
+ 4. sic_13.0                      : 0.014918
+ 5. chmom_x_macro_ep              : -0.013967
+ 6. mom1m                         : -0.013526
+ 7. sic_60.0                      : 0.012722
+ 8. mvel1_x_macro_ep              : -0.012652
+ 9. chmom_x_macro_dp              : 0.011945
+10. sp_x_macro_bm                 : -0.011313
+11. betasq_x_macro_bm             : -0.011221
+12. mom6m_x_macro_ep              : -0.011023
+13. mom12m_x_macro_ep             : -0.010877
+14. beta_x_macro_bm               : -0.010328
+15. std_turn                      : 0.010200
+16. mom6m_x_macro_dp              : 0.010067
+17. dolvol                        : -0.010066
+18. mom6m                         : 0.009253
+19. mom12m_x_macro_dp             : 0.009118
+20. sic_38.0                      : 0.009098

@@ -1,0 +1,11 @@
+Model,Target,Best_Parameter,Best_Value
+Lasso,ret,alpha,0.0001
+Lasso,ret12,alpha,0.0001
+GBRT,ret,n_estimators,50
+GBRT,ret,max_depth,2
+GBRT,ret12,n_estimators,50
+GBRT,ret12,max_depth,1
+RandomForest,ret,max_depth,6
+RandomForest,ret,n_estimators,300
+RandomForest,ret12,max_depth,1
+RandomForest,ret12,n_estimators,100

@@ -1,0 +1,30 @@
+Lasso 3-Way alpha=0.0001 Results (ret12)
+==============================
+R2 OOS: -12.5860%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.1153, Vol=0.1695, Sharpe=0.6800
+  Short     : Return=0.0807, Vol=0.3776, Sharpe=0.2137
+  Long-Short: Return=0.0346, Vol=0.2600, Sharpe=0.1331
+
+
+Top 20 Features (by absolute coefficient):
+ 1. sic_48.0                      : 0.144328
+ 2. sic_60.0                      : -0.108955
+ 3. sic_13.0                      : 0.100204
+ 4. betasq_x_macro_bm             : 0.084083
+ 5. sic_54.0                      : 0.082271
+ 6. beta_x_macro_bm               : 0.080804
+ 7. sic_28.0                      : 0.077774
+ 8. sic_65.0                      : -0.075446
+ 9. sic_63.0                      : 0.072170
+10. sic_42.0                      : -0.067749
+11. sic_49.0                      : 0.065799
+12. sic_80.0                      : 0.065147
+13. sic_20.0                      : 0.062233
+14. mom6m                         : 0.057970
+15. indmom_x_macro_bm             : 0.055181
+16. turn                          : -0.045418
+17. retvol_x_macro_bm             : 0.043707
+18. idiovol_x_macro_bm            : 0.043574
+19. zerotrade                     : 0.042096
+20. baspread                      : -0.041620

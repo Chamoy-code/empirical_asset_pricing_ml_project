@@ -1,0 +1,31 @@
+RF Optimized Results (ret)
+Params: depth=6, nest=300
+========================================
+R2 OOS: -0.3260%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.0869, Vol=0.2304, Sharpe=0.3771
+  Short     : Return=0.0851, Vol=0.2136, Sharpe=0.3983
+  Long-Short: Return=0.0018, Vol=0.0988, Sharpe=0.0183
+
+
+Top 20 Features (by importance):
+ 1. divo_x_macro_tbl              : 0.025781
+ 2. divo_x_macro_ntis             : 0.024811
+ 3. sin_x_macro_ntis              : 0.022444
+ 4. divo                          : 0.019354
+ 5. sin                           : 0.019189
+ 6. convind_x_macro_tbl           : 0.018232
+ 7. divo_x_macro_infl             : 0.016835
+ 8. divo_x_macro_dp               : 0.015615
+ 9. sin_x_macro_tbl               : 0.015453
+10. sin_x_macro_tms               : 0.014732
+11. sin_x_macro_ep                : 0.014357
+12. divi_x_macro_tbl              : 0.014124
+13. divo_x_macro_ep               : 0.014099
+14. divi_x_macro_ntis             : 0.013177
+15. sin_x_macro_dp                : 0.012991
+16. divi_x_macro_tms              : 0.012894
+17. divo_x_macro_tms              : 0.012043
+18. sin_x_macro_bm                : 0.011954
+19. convind_x_macro_bm            : 0.011884
+20. convind                       : 0.011806

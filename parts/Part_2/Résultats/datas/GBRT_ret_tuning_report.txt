@@ -1,0 +1,31 @@
+GBRT Results (ret)
+Winner: {'n_estimators': 50, 'max_depth': 2}
+==============================
+R2 OOS: -0.7669%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.0961, Vol=0.2198, Sharpe=0.4374
+  Short     : Return=0.0226, Vol=0.2059, Sharpe=0.1097
+  Long-Short: Return=0.0736, Vol=0.0799, Sharpe=0.9212
+
+
+Top 20 Features (by importance):
+ 1. sin_x_macro_ep                : 0.082560
+ 2. sin                           : 0.077965
+ 3. divi                          : 0.055336
+ 4. sin_x_macro_bm                : 0.051158
+ 5. divo_x_macro_ntis             : 0.048817
+ 6. convind                       : 0.046269
+ 7. sin_x_macro_dp                : 0.041281
+ 8. divo_x_macro_tms              : 0.034974
+ 9. convind_x_macro_tbl           : 0.034477
+10. rd_x_macro_bm                 : 0.034391
+11. divo                          : 0.031011
+12. rd_x_macro_infl               : 0.030079
+13. stdcf                         : 0.024360
+14. divo_x_macro_infl             : 0.022205
+15. stdcf_x_macro_ep              : 0.021948
+16. convind_x_macro_bm            : 0.021572
+17. sin_x_macro_infl              : 0.021554
+18. sin_x_macro_tbl               : 0.021360
+19. stdacc                        : 0.021066
+20. mom1m                         : 0.019595

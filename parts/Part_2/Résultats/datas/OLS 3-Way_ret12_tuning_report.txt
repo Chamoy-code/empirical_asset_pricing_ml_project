@@ -1,0 +1,30 @@
+OLS 3-Way Results (ret12)
+==============================
+R2 OOS: -14.6152%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.1156, Vol=0.1738, Sharpe=0.6652
+  Short     : Return=0.0839, Vol=0.3711, Sharpe=0.2260
+  Long-Short: Return=0.0318, Vol=0.2509, Sharpe=0.1266
+
+
+Top 20 Features (by absolute coefficient):
+ 1. sic_48.0                      : 0.163643
+ 2. sic_13.0                      : 0.107996
+ 3. sic_54.0                      : 0.102665
+ 4. sic_60.0                      : -0.100453
+ 5. betasq_x_macro_bm             : 0.097173
+ 6. beta_x_macro_bm               : 0.096447
+ 7. sic_28.0                      : 0.092876
+ 8. sic_63.0                      : 0.087300
+ 9. sic_49.0                      : 0.084640
+10. sic_80.0                      : 0.081784
+11. sic_20.0                      : 0.081774
+12. indmom_x_macro_bm             : 0.079273
+13. sic_42.0                      : -0.079060
+14. sic_65.0                      : -0.078684
+15. mom6m                         : 0.064860
+16. retvol_x_macro_bm             : 0.064696
+17. sic_56.0                      : 0.062008
+18. idiovol_x_macro_bm            : 0.059782
+19. sic_59.0                      : 0.058308
+20. sic_26.0                      : 0.054871

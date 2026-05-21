@@ -1,0 +1,31 @@
+RF Results (ret12)
+Winner Params: {'n_estimators': 100, 'max_depth': 1}
+==============================
+R2 OOS: 2.2541%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.1203, Vol=0.2700, Sharpe=0.4457
+  Short     : Return=0.0850, Vol=0.2010, Sharpe=0.4232
+  Long-Short: Return=0.0353, Vol=0.1117, Sharpe=0.3160
+
+
+Top 20 Features (by importance):
+ 1. divi                          : 0.070000
+ 2. sin                           : 0.070000
+ 3. operprof                      : 0.050000
+ 4. convind_x_macro_bm            : 0.050000
+ 5. bm                            : 0.040000
+ 6. stdacc                        : 0.040000
+ 7. rd_mve                        : 0.030000
+ 8. cinvest                       : 0.030000
+ 9. divo_x_macro_bm               : 0.030000
+10. sin_x_macro_bm                : 0.030000
+11. divi_x_macro_tbl              : 0.030000
+12. ep                            : 0.030000
+13. securedind_x_macro_tms        : 0.020000
+14. operprof_x_macro_bm           : 0.020000
+15. cash_x_macro_bm               : 0.020000
+16. divo_x_macro_ntis             : 0.020000
+17. divi_x_macro_tms              : 0.020000
+18. pchdepr                       : 0.020000
+19. securedind                    : 0.020000
+20. roaq_x_macro_bm               : 0.020000

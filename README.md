@@ -305,27 +305,6 @@ ElasticNet is implemented in `src/models.py` but was not fully reported across a
 
 ---
 
-## Installation & Setup
-
-**Requirements:** Python 3.9+, ~8 GB RAM minimum (16 GB recommended)
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/empirical-asset-pricing-ml.git
-cd empirical-asset-pricing-ml
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-Place the raw data files in the root directory:
-```
-datashare.csv                  # From WRDS
-PredictorData2022 (1).xlsx     # From Welch & Goyal
-```
-
----
-
 ## Workflow
 
 Run steps in order. Each step writes its output to disk so you can resume mid-pipeline.

@@ -1,0 +1,8 @@
+NN Optimized Fixed Results (ret12)
+Arch: NN3 (relu)
+========================================
+R2 OOS: -52.7643%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.1155, Vol=0.3775, Sharpe=0.3060
+  Short     : Return=0.0804, Vol=0.2981, Sharpe=0.2697
+  Long-Short: Return=0.0351, Vol=0.1480, Sharpe=0.2373

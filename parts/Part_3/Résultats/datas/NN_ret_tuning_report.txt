@@ -1,0 +1,8 @@
+NN Tuning Results (ret)
+Best Arch: NN3 (relu)
+========================================
+R2 OOS: -2.7516%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.0939, Vol=0.2107, Sharpe=0.4458
+  Short     : Return=0.0517, Vol=0.2249, Sharpe=0.2299
+  Long-Short: Return=0.0422, Vol=0.0743, Sharpe=0.5684

@@ -1,0 +1,5 @@
+Model,Target,Best_Parameter,Best_Value
+NN,ret,architecture,NN3
+NN,ret,activation,relu
+NN,ret12,architecture,NN3
+NN,ret12,activation,relu

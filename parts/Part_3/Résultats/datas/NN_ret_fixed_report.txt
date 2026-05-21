@@ -1,0 +1,8 @@
+NN Baseline Fixed Results (ret)
+Architecture: NN1
+========================================
+R2 OOS: -11.5456%
+Portfolio Metrics (Annualized):
+  Long      : Return=0.0995, Vol=0.2435, Sharpe=0.4088
+  Short     : Return=0.0500, Vol=0.1951, Sharpe=0.2565
+  Long-Short: Return=0.0495, Vol=0.0963, Sharpe=0.5137
